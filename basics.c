@@ -7,6 +7,6 @@ int main()
     float salary = 25000.67;
     printf("%d\n",age);
     printf("%c\n",grade); 
-    printf("%2f\n",salary); 
+    printf("%2.2f\n",salary); 
     return 0; 
 }
