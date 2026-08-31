@@ -1,6 +1,6 @@
-#include <conio.h>;
-#include <stdio.h>;
-int main();
+#include <conio.h>
+#include <stdio.h>
+int main()                          
 {
     float celcius,fahrenheit;
     printf("Enter temperature in celcius: ");
@@ -8,4 +8,5 @@ int main();
     fahrenheit = (celcius * 9/5) + 32;
     printf("Temperature in fahrenheit: %f", fahrenheit);
     return 0;
+
 }
