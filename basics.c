@@ -2,13 +2,10 @@
 #include <stdio.h>
 int main()
 {
-    int age = 25;
-    char grade = 'A';
-    float salary = 25000.67;
-
-    printf("%d\n",age);
-    printf("%c\n",grade); 
-    printf("%2.2f\n",salary); 
-    
+    int a,b,sum;
+    printf("Enter two numbers: ");
+    scanf("%d %d",&a,&b); 
+    sum = a + b;
+    printf("Sum: %d", sum);
     return 0; 
 }
