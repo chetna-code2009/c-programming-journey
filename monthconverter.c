@@ -3,7 +3,7 @@
 int main()
 {
     int days, months, remaining_days;
-    printf("^_^ WELCOME TO DAYS TO MONTH CONVERTER ^_^")
+    printf("^_^ WELCOME TO DAYS TO MONTH CONVERTER ^_^");
     printf("Enter number of days: ");
     scanf("%d",&days);
     months=days/30;
