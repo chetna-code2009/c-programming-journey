@@ -1,11 +1,17 @@
-//👩‍💼 EMPLOYEE PROGRAM 👩‍💼
 #include <stdio.h>
+
+#define FAHRENHEIT(C) ((9.0 / 5.0) * (C) + 32)
+
 int main()
 {
-    int a,b,sum;
-    printf("Enter two numbers: ");
-    scanf("%d %d",&a,&b); 
-    sum = a + b;
-    printf("Sum: %d", sum);
-    return 0; 
+    float celsius, fahrenheit;
+
+    printf("Enter temperature in Celsius: ");
+    scanf("%f", &celsius);
+
+    fahrenheit = FAHRENHEIT(celsius);
+
+    printf("Temperature in Fahrenheit = %.2f", fahrenheit);
+
+    return 0;
 }

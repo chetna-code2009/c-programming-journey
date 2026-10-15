@@ -8,5 +8,4 @@ int main()
     fahrenheit = (celcius * 9/5) + 32;
     printf("Temperature in fahrenheit: %f", fahrenheit);
     return 0;
-
 }
